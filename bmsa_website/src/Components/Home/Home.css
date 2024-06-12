@@ -1,0 +1,51 @@
+
+
+
+/*
+Update so that there are flex boxes for the elements, also add a div
+*/
+.home-elements {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  margin-top: 30vh;
+  margin-left: 7.5%;
+}
+
+.profile-photo {
+  width: 45%;
+  height: 45%;
+  border-radius: 3vh;
+}
+
+.home-info {
+  margin-top: -1vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-name {
+  font-size:5vw;
+  margin-left: 0vw;
+}
+
+.home-description {
+  font-size: 2vw;
+  margin-top: -2.5%;
+  margin-left: 2.5vw;
+}
+
+.home-social {
+  display:flex;
+  flex-direction: row;
+}
+
+.home-social-first {
+  height: 5vh;
+  margin-left: 5vw;
+}
+
+.home-social-other {
+  height: 5vh;
+  margin-left: 5vw;
+}
