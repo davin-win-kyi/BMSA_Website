@@ -43,9 +43,13 @@ Update so that there are flex boxes for the elements, also add a div
 .home-social-first {
   height: 7.5vh;
   margin-left: 10vw;
+  width: 33%;
+  height: 75%;
 }
 
 .home-social-other {
   height: 7.5vh;
   margin-left: 7.5vw;
+  width: 33%;
+  height: 75%;
 }

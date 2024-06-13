@@ -58,9 +58,7 @@ export function Join() {
         <div className="aboutme-main-content">
           <img className = "aboutme-image" src={process.env.PUBLIC_URL + "/img/Join_club.png"}></img>
           <p className="aboutme-bio">
-          <br></br>
-          <br></br>
-          <br></br>
+
             Feel free to reach out to:
             <br></br>
             <br></br>
