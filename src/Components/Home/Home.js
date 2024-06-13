@@ -63,11 +63,11 @@ export function Home() {
             </a>
 
             <a href="https://www.instagram.com/bmsauw/">
-              <img className="home-social-other" src={process.env.PUBLIC_URL + "/img/instagram_icon.png"}></img>
+              <img className="home-social-other1" src={process.env.PUBLIC_URL + "/img/instagram_icon.png"}></img>
             </a>
 
             <a href="https://linktr.ee/bmsauw.savemyanmar">
-              <img className="home-social-other" src={process.env.PUBLIC_URL + "/img/linktree.png"}></img>
+              <img className="home-social-other2" src={process.env.PUBLIC_URL + "/img/linktree.png"}></img>
             </a>
           </div>
         </div>
