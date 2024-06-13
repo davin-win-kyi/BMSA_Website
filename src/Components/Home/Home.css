@@ -26,14 +26,14 @@ Update so that there are flex boxes for the elements, also add a div
 
 .home-name {
   font-size:4.5vw;
-  margin-left: -1vw;
+  margin-left: -2vw;
   margin-top: 0vh;
 }
 
 .home-description {
   font-size: 2vw;
   margin-top: -2.5%;
-  margin-left: 0vw;
+  margin-left: -2vw;
 }
 
 .home-social {
@@ -43,7 +43,7 @@ Update so that there are flex boxes for the elements, also add a div
 
 .home-social-first {
   height: 7.5vh;
-  margin-left: 11vw;
+  margin-left: 7.5vw;
   margin-right: 4vh;
   width: 30px;
   height: 30px;
