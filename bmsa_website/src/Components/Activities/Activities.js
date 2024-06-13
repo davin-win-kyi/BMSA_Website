@@ -57,7 +57,7 @@ export function Activities() {
           </a>
         </div>
         <div class="grid-item">
-          <a href="https://github.com/davin-win-kyi/real-time-bus-detection">
+          <a href="https://www.tbsousa.org/v11_10/default.html">
           <img className="project-img" src={process.env.PUBLIC_URL + "/img/burmese_buddhist.png"}></img>
             <p>Interested in Burma's rich buddhist culture</p>
           </a>
@@ -69,7 +69,7 @@ export function Activities() {
           </a>
         </div>
         <div class="grid-item">
-          <a href="https://github.com/davin-win-kyi/real-world-alt-text">
+          <a href="https://www.facebook.com/BMSAnetwork/posts/3589824937804167/?paipv=0&eav=AfYTHu1pZiOeBgpXb8uwfnbEW85bLYEAH-tDHSGOFapOGD-PZJFmXMf0Zv1yRTDZqIM&_rdr">
             <img className="project-img" src={process.env.PUBLIC_URL + "/img/thadingyut.png"}></img>
             <p>thadingyut (Lighting Festival)</p>
           </a>
