@@ -117,48 +117,33 @@ Styles for non dropdown related elements
 }
 
 .teaching-title {
-  font-size: 25px;
+  font-size: 35px;
   font-weight: bold;
 }
 
 .teaching-classes {
   display: flex;
-  flex-direction: column;
-  margin-top: 1.5vh;
-  margin-left: 5vw;
-}
-
-.teaching-class {
-  display: flex;
+  justify-content: flex-start;
   flex-direction: row;
+  margin-top: 1.5vh;
+  margin-left: 0vw;
 }
 
 .teaching-class-img {
-  height:100px;
-  width: 100px;
+  height: 32.5vh;
+  width: 40vw;
+
 }
 
 .teaching-class-text {
-  margin-left: 2vw;
-  margin-top: -2vh;
-  align-items: start;
+  margin-left: 2.5vw;
+  margin-top: 5vh;
   font-size: 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 .teaching-class-img-last {
   height:100px;
   width: 100px;
-}
-
-.teaching-class-text {
-  margin-left: 2vw;
-  margin-top: -2vh;
-  align-items: start;
-  font-size: 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 .teaching-class-text-duties {

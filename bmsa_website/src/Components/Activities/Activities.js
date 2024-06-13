@@ -1,8 +1,8 @@
-import './Projects.css'
+import './Activities.css'
 
 import React, {useState, useEffect, useRef} from 'react';
 
-export function Projects() {
+export function Activities() {
 
   const [open, setOpen] = useState(false);
 
@@ -47,30 +47,33 @@ export function Projects() {
   return (
     <div className="App">
 
-      <p className="projects-title">Projects</p>
+      <p className="projects-title">Activities!</p>
 
       <div class="grid-container">
         <div class="grid-item">
-          <a href="https://github.com/davin-win-kyi/real-time-sidewalk-test">
-            <p>Side Walk Veering</p>
-            <img className="project-img" src={process.env.PUBLIC_URL + "/img/pedestrian traffic signal.png"}></img>
+          <a href="https://jsis.washington.edu/csead/programs/language-instruction/burmese/">
+            <img className="project-img" src={process.env.PUBLIC_URL + "/img/classes.png"}></img>
+            <p>Wanna learn some burmese</p>
           </a>
         </div>
         <div class="grid-item">
           <a href="https://github.com/davin-win-kyi/real-time-bus-detection">
-            <p>Bus stop assistance</p>
-            <img className="project-img" src={process.env.PUBLIC_URL + "/img/bus stop.jpeg"}></img>
+          <img className="project-img" src={process.env.PUBLIC_URL + "/img/burmese_buddhist.png"}></img>
+            <p>Interested in Burma's rich buddhist culture</p>
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="https://www.facebook.com/SaveBurmaSeattleWA/">
+            <img className="project-img" src={process.env.PUBLIC_URL + "/img/mohingya.png"}></img>
+            <p>Food fair!</p>
           </a>
         </div>
         <div class="grid-item">
           <a href="https://github.com/davin-win-kyi/real-world-alt-text">
-          <p>VQA for blind and low vision individuals</p>
-            <img className="project-img" src={process.env.PUBLIC_URL + "/img/VQA.png"}></img>
+            <img className="project-img" src={process.env.PUBLIC_URL + "/img/thadingyut.png"}></img>
+            <p>thadingyut (Lighting Festival)</p>
           </a>
         </div>
-        <div class="grid-item">Coming soon!</div>
-        <div class="grid-item">Coming soon!</div>
-        <div class="grid-item">Coming soon!</div>
       </div>
 
 
@@ -81,14 +84,13 @@ export function Projects() {
         </div>
 
         <div className={`dropdown-menu ${open? 'active' : 'inactive'}`} >
-          <h3>Davin Win Kyi<br/><span>Undergraduate Research Assistant</span></h3>
+          <h3>Menu</h3>
           <ul>
-            <DropDownItem img={process.env.PUBLIC_URL + "/img/home.png"} text={"Home"} website={"/"} />
-            <DropDownItem img={process.env.PUBLIC_URL + "/img/resume.jpeg"} text={"CV"} website={"https://drive.google.com/file/d/1NJg7ttQj0vg1SojThLjdRM1a_zEd25Gl/view?usp=drive_link"}/>
-            <DropDownItem img={process.env.PUBLIC_URL + "/img/contact.jpeg"} text={"Contact"} website={"/Contact"}/>
-            <DropDownItem img={process.env.PUBLIC_URL + "/img/projects.png"} text={"Projects"} website={"/Projects"}/>
-            <DropDownItem img={process.env.PUBLIC_URL + "/img/about me.png"} text={"About me"} website={"/About"}/>
-            <DropDownItem img={process.env.PUBLIC_URL + "/img/teaching icon.jpeg"} text={"Teaching"} website={"/Teaching"}/>
+          <DropDownItem img={process.env.PUBLIC_URL + "/img/home.png"} text={"Home"} website={"/"} />
+            <DropDownItem img={process.env.PUBLIC_URL + "/img/activities.png"} text={"Activties"} website={"/Activities"}/>
+            <DropDownItem img={process.env.PUBLIC_URL + "/img/news.png"} text={"News"} website={"/News"}/>
+            <DropDownItem img={process.env.PUBLIC_URL + "/img/join_club.png"} text={"Join our club!"} website={"/Join"}/>
+            <DropDownItem img={process.env.PUBLIC_URL + "/img/contact.jpeg"} text={"Contact"} website={"/Contact"}/>    
           </ul>
         </div>
       </div>

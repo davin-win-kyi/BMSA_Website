@@ -54,26 +54,20 @@ export function Home() {
 
         <div className="home-info">
 
-          <p className="home-name">Davin Win Kyi</p>
-          <p className="home-description">Current Graduate Researcher in Makeability <br></br>
-            Studying AR/VR, Human Computer Interaction(HCI) <br></br>
-            and Accessibility </p>
+          <p className="home-name">Burma Myanmar Student Association (BMSA)</p>
+          <p className="home-description">Enlightening Students in Burmese Culture!</p>
 
           <div className="home-social">
-            <a href="https://drive.google.com/file/d/1NJg7ttQj0vg1SojThLjdRM1a_zEd25Gl/view?usp=drive_link">
-              <img className="home-social-first" src={process.env.PUBLIC_URL + "/img/CV icon-2.png"}></img>
+            <a href="https://www.facebook.com/BMSAnetwork/">
+              <img className="home-social-first" src={process.env.PUBLIC_URL + "/img/facebook.svg"}></img>
             </a>
 
-            <a href="https://twitter.com/DavinWinKyi">
-              <img className="home-social-other" src={process.env.PUBLIC_URL + "/img/x-social-media-logo-icon.webp"}></img>
+            <a href="https://www.instagram.com/bmsauw/">
+              <img className="home-social-other" src={process.env.PUBLIC_URL + "/img/instagram_logo.webp"}></img>
             </a>
 
-            <a href="https://github.com/davin-win-kyi">
-              <img className="home-social-other" src={process.env.PUBLIC_URL + "/img/github icon.jpg"}></img>
-            </a>
-
-            <a href="https://www.linkedin.com/in/davin-kyi/">
-              <img className="home-social-other" src={process.env.PUBLIC_URL + "/img/linkedin icon.png"}></img>
+            <a href="https://linktr.ee/bmsauw.savemyanmar">
+              <img className="home-social-other" src={process.env.PUBLIC_URL + "/img/linktree.webp"}></img>
             </a>
           </div>
         </div>
@@ -86,14 +80,13 @@ export function Home() {
         </div>
 
         <div className={`dropdown-menu ${open? 'active' : 'inactive'}`} >
-          <h3>Davin Win Kyi<br/><span>Undergraduate Research Assistant</span></h3>
+          <h3>Menu</h3>
           <ul>
-            <DropDownItem img={process.env.PUBLIC_URL + "/img/home.png"} text={"Home"} website={"/"} />
-            <DropDownItem img={process.env.PUBLIC_URL + "/img/resume.jpeg"} text={"CV"} website={"https://drive.google.com/file/d/1NJg7ttQj0vg1SojThLjdRM1a_zEd25Gl/view?usp=drive_link"}/>
-            <DropDownItem img={process.env.PUBLIC_URL + "/img/contact.jpeg"} text={"Contact"} website={"/Contact"}/>
-            <DropDownItem img={process.env.PUBLIC_URL + "/img/projects.png"} text={"Projects"} website={"/Projects"}/>
-            <DropDownItem img={process.env.PUBLIC_URL + "/img/about me.png"} text={"About me"} website={"/About"}/>
-            <DropDownItem img={process.env.PUBLIC_URL + "/img/teaching icon.jpeg"} text={"Teaching"} website={"/Teaching"}/>
+          <DropDownItem img={process.env.PUBLIC_URL + "/img/home.png"} text={"Home"} website={"/"} />
+            <DropDownItem img={process.env.PUBLIC_URL + "/img/activities.png"} text={"Activties"} website={"/Activities"}/>
+            <DropDownItem img={process.env.PUBLIC_URL + "/img/news.png"} text={"News"} website={"/News"}/>
+            <DropDownItem img={process.env.PUBLIC_URL + "/img/join_club.png"} text={"Join our club!"} website={"/Join"}/>
+            <DropDownItem img={process.env.PUBLIC_URL + "/img/contact.jpeg"} text={"Contact"} website={"/Contact"}/>    
           </ul>
         </div>
       </div>

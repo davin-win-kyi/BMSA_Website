@@ -5,27 +5,24 @@ import { Routes, Route} from 'react-router-dom';
 
 import {Home} from "./Components/Home/Home"
 
-import {About} from "./Components/About/About"
+import {Join} from "./Components/Join/Join"
 
 import {Contact} from "./Components/Contact/Contact"
 
-import {CiriculumVitae} from "./Components/CiriculumVitae/CiriculumVitae"
+import {Activities} from "./Components/Activities/Activities"
 
-import {Projects} from "./Components/Projects/Projects"
-
-import {Teaching} from "./Components/Teaching/Teaching"
+import {News} from "./Components/News/News"
 
 import React from 'react';
 
 function App() {
   return (
     <Routes>
-      <Route path="/About" element={<About />} />
+      <Route path="/Join" element={<Join />} />
       <Route path="/Contact" element={<Contact />} />
-      <Route path="/CiriculumVitae" element={<CiriculumVitae />} />
       <Route path="/" element={<Home />} />
-      <Route path="/Projects" element={<Projects />} />
-      <Route path="/Teaching" element={<Teaching />} />
+      <Route path="/Activities" element={<Activities />} />
+      <Route path="/News" element={<News />} />
     </Routes>
   );
 }

@@ -101,4 +101,10 @@ Non-drop down menu content
   margin-top: -1.5vh;
 }
 
+.about-link {
+  color: blue; /* Change the text color to blue */
+  text-decoration: underline; /* Underline the text */
+  cursor: pointer;
+}
+
 

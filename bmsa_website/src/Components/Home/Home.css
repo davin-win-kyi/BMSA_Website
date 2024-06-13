@@ -19,13 +19,13 @@ Update so that there are flex boxes for the elements, also add a div
 }
 
 .home-info {
-  margin-top: -1vh;
+  margin-top: 2vh;
   display: flex;
   flex-direction: column;
 }
 
 .home-name {
-  font-size:5vw;
+  font-size:3vw;
   margin-left: 0vw;
 }
 
@@ -41,11 +41,11 @@ Update so that there are flex boxes for the elements, also add a div
 }
 
 .home-social-first {
-  height: 5vh;
-  margin-left: 5vw;
+  height: 7.5vh;
+  margin-left: 10vw;
 }
 
 .home-social-other {
-  height: 5vh;
-  margin-left: 5vw;
+  height: 7.5vh;
+  margin-left: 7.5vw;
 }

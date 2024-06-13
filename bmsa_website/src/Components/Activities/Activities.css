@@ -1,15 +1,16 @@
 .projects-title {
   position: relative;
   z-index: 2;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: bold;
   margin-left: -75vw;
   margin-top: 12.5vh;
 }
 
 .project-img {
-  width: 90%;
-  height: 80%;
+  width: 85%;
+  height: 85%;
+  border-radius: 5%;
 }
 
 a {
@@ -26,18 +27,16 @@ a {
 }
 
 .grid-item {
-  background-color: #f0f0f0; /* Light grey background for visibility */
   text-align: center; /* Centers text horizontally */
   padding: 20px; /* Adds some padding inside the grid items */
-  border: 1px solid #ddd; /* Adds a light border around grid items */
-  width: 85%;
+  width: 95%;
   margin-left: 3.5%;
-  height: 25vh;
+  height: 75;
   font-size: 15.5px;
   font-weight: bold;
   border-radius: 1.5vw;
 }
 
 .grid-item:hover {
-  background-color: #FFFFFF;
+  background-color: #f0f0f0;
 }
