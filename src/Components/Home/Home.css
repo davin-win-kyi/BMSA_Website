@@ -42,23 +42,21 @@ Update so that there are flex boxes for the elements, also add a div
 
 .home-social-first {
   height: 7.5vh;
-  margin-left: 50%;
-  width: 65%;
-  height: 65%;
+  margin-left: 5vh;
+  width: 50%;
+  height: 50%;
 }
 
 .home-social-other1 {
   height: 7.5vh;
-  margin-left: 150%;
-  width: 75%;
+  margin-left: 5vh;
+  width: 50%;
   height: 50%;
-  margin-top: 1.5vh;
 }
 
 .home-social-other2 {
   height: 7.5vh;
-  margin-left: 225%;
-  width: 75%;
+  margin-left: 5vh;
+  width: 50%;
   height: 50%;
-  margin-top: 1.5vh;
 }
